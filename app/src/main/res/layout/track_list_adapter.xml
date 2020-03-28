@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical"
+            >
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textAlignment="viewEnd"
+                android:gravity="end">
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/editname"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:hint="Shop name"
+                    />
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/editdriver"
+                    android:layout_below="@+id/editname"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:hint="Type of Service"
+                    />
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/editphone"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/editdriver"
+                    android:hint="Name"
+                    />
+
+                <TextView
+                    android:layout_below="@+id/editphone"
+                    android:layout_width="wrap_content"
+                    android:hint="Price"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/etsource"
+                    />
+
+
+                <TextView
+                    android:layout_below="@+id/etsource"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:hint="Address"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/etdest"
+                    />
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/etsourcetime"
+                    android:layout_below="@+id/etdest"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:hint="Area"
+                    />
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:id="@+id/etdesttime"
+                    android:layout_below="@+id/etsourcetime"
+                    android:hint="City"
+                    />
+
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/etdate"
+                    android:layout_below="@+id/etdesttime"
+                    />
+
+            </RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/direction"
+        android:text="Direction"
+        android:background="@color/orange"
+        android:textColor="#fff"
+        android:layout_gravity="end"
+
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Confirm"
+        android:text="Book Now"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_gravity="end"
+       android:layout_marginLeft="20dp"
+
+        />
+</LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "375178023405",
+    "firebase_url": "https://visit-mechanic-e211b.firebaseio.com",
+    "project_id": "visit-mechanic-e211b",
+    "storage_bucket": "visit-mechanic-e211b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375178023405:android:ced289b4479048cfc797e4",
+        "android_client_info": {
+          "package_name": "com.example.service"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375178023405-6b82tuc63nphspi98c4b5q571apnsg4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsC8PqhrbtVSLpXmEct4dZ2CHbLQcpy1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375178023405-6b82tuc63nphspi98c4b5q571apnsg4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

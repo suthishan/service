@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        tools:context=".ownerRegister.College_Event" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorHint="#898989"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="Shop Register"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                />
+
+
+            <EditText
+                android:id="@+id/collegename"
+                android:background="@drawable/shapebox"
+                android:layout_marginRight="20dp"
+                android:textColorHint="#898989"
+                android:textColor="#fff"
+                android:layout_marginLeft="20dp"
+                android:hint="Shop Name"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+
+
+                android:layout_marginBottom="30dp"
+                />
+
+
+
+            <EditText
+                android:id="@+id/department"
+                android:background="@drawable/shapebox"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColorHint="#898989"
+                android:textColor="#fff"
+                android:hint="Type of Service"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginBottom="30dp"
+                />
+
+
+
+            <EditText
+                android:id="@+id/eventname"
+                android:background="@drawable/shapebox"
+                android:padding="10dp"
+                android:hint="Owner Name"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#898989"
+                android:layout_marginRight="20dp"
+                android:textColor="#fff"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="30dp"/>
+
+
+            <EditText
+                android:id="@+id/discription"
+                android:background="@drawable/shapebox"
+                android:padding="30dp"
+                android:hint="Offer Details"
+                android:textColorHint="#898989"
+                android:textColor="#fff"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="30dp"/>
+
+            <EditText
+                android:id="@+id/eventdate"
+                android:background="@drawable/shapebox"
+                android:padding="10dp"
+                android:hint="Address"
+                android:textColorHint="#898989"
+                android:textColor="#fff"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="30dp"/>
+            <EditText
+                android:id="@+id/lastreg"
+                android:background="@drawable/shapebox"
+                android:padding="10dp"
+                android:hint="Area"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#898989"
+                android:textColor="#fff"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="30dp"/>
+
+
+
+            <EditText
+                android:id="@+id/City"
+                android:background="@drawable/shapebox"
+                android:padding="10dp"
+                android:hint="City"
+                android:textColorHint="#898989"
+                android:textColor="#fff"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="30dp"/>
+
+
+
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_gravity="center"
+                android:textColorHint="#898989"
+                android:text="Send"
+                android:textColor="#000"
+                android:layout_marginBottom="70dp"
+                />
+
+
+        </LinearLayout></ScrollView></LinearLayout>
